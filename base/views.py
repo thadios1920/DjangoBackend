@@ -11,6 +11,7 @@ from.serializer import ProductSerializer
 @api_view(['GET'])
 def getRoutes(request):
     return Response('aymen')
+    
 
 @api_view(['GET'])
 def getProducts(request):
